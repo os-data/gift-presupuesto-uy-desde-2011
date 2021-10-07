@@ -11971,6 +11971,1502 @@
           }
         }
       }
+    },
+    {
+      "bytes": 9150383,
+      "hash": "0a2029a6efbc0d041ca447e2860bee0da2bbac39724432e87d21a060786eb713",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "ANO",
+            "name": "ANO",
+            "slug": "ANO",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "AP_ID",
+            "name": "AP_ID",
+            "slug": "AP_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "AP_NOMBRE",
+            "name": "AP_NOMBRE",
+            "slug": "AP_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "FINANC_ID",
+            "name": "FINANC_ID",
+            "slug": "FINANC_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FINANC_NOMBRE",
+            "name": "FINANC_NOMBRE",
+            "slug": "FINANC_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FUENTE_FINANC_ID",
+            "name": "FUENTE_FINANC_ID",
+            "slug": "FUENTE_FINANC_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level2:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FUENTE_FINANC_NOMBRE",
+            "name": "FUENTE_FINANC_NOMBRE",
+            "slug": "FUENTE_FINANC_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level2:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "GRUPO_ID",
+            "name": "GRUPO_ID",
+            "slug": "GRUPO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "GRUPO_NOMBRE",
+            "name": "GRUPO_NOMBRE",
+            "slug": "GRUPO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "MONTO_APROBADO",
+            "name": "MONTO_APROBADO",
+            "slug": "MONTO_APROBADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJECUTADO",
+            "name": "MONTO_EJECUTADO",
+            "slug": "MONTO_EJECUTADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_VIGENTE",
+            "name": "MONTO_VIGENTE",
+            "slug": "MONTO_VIGENTE",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "ODGYAUX_ID",
+            "name": "ODGYAUX_ID",
+            "slug": "ODGYAUX_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ODGYAUX_NOMBRE",
+            "name": "ODGYAUX_NOMBRE",
+            "slug": "ODGYAUX_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ORG_ID",
+            "name": "ORG_ID",
+            "slug": "ORG_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ORG_NOMBRE",
+            "name": "ORG_NOMBRE",
+            "slug": "ORG_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "PROGRAMA_ID",
+            "name": "PROGRAMA_ID",
+            "slug": "PROGRAMA_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "PROGRAMA_NOMBRE",
+            "name": "PROGRAMA_NOMBRE",
+            "slug": "PROGRAMA_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "PROYECTO_ID",
+            "name": "PROYECTO_ID",
+            "slug": "PROYECTO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "PROYECTO_NOMBRE",
+            "name": "PROYECTO_NOMBRE",
+            "slug": "PROYECTO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "SUBGRUPO_ID",
+            "name": "SUBGRUPO_ID",
+            "slug": "SUBGRUPO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "SUBGRUPO_NOMBRE",
+            "name": "SUBGRUPO_NOMBRE",
+            "slug": "SUBGRUPO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "TIPO_GASTO_ID",
+            "name": "TIPO_GASTO_ID",
+            "slug": "TIPO_GASTO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:code",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "TIPO_GASTO_NOMBRE",
+            "name": "TIPO_GASTO_NOMBRE",
+            "slug": "TIPO_GASTO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:label",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "UE_ID",
+            "name": "UE_ID",
+            "slug": "UE_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "UE_NOMBRE",
+            "name": "UE_NOMBRE",
+            "slug": "UE_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "presupuesto_de_uruguay__2019.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/presupuesto_de_uruguay__2019.csv",
+      "hashcopy": "110f11a218aca0119584b72e1fd6d791870534348128fc4cf70d71601d4a27ae",
+      "sample": [
+        [
+          "ANO",
+          "AP_ID",
+          "AP_NOMBRE",
+          "FINANC_ID",
+          "FINANC_NOMBRE",
+          "FUENTE_FINANC_ID",
+          "FUENTE_FINANC_NOMBRE",
+          "GRUPO_ID",
+          "GRUPO_NOMBRE",
+          "MONTO_APROBADO",
+          "MONTO_EJECUTADO",
+          "MONTO_VIGENTE",
+          "ODGYAUX_ID",
+          "ODGYAUX_NOMBRE",
+          "ORG_ID",
+          "ORG_NOMBRE",
+          "PROGRAMA_ID",
+          "PROGRAMA_NOMBRE",
+          "PROYECTO_ID",
+          "PROYECTO_NOMBRE",
+          "SUBGRUPO_ID",
+          "SUBGRUPO_NOMBRE",
+          "TIPO_GASTO_ID",
+          "TIPO_GASTO_NOMBRE",
+          "UE_ID",
+          "UE_NOMBRE"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "614019",
+          "0",
+          "0",
+          "91.17",
+          "Economías ejercicios vencidos 2017",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "406222500",
+          "0",
+          "0",
+          "98.0",
+          "Serv.Personales  para uso excl.Entes Descentr.Pto.Nal.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "0",
+          "0",
+          "17717",
+          "53.0",
+          "Licencias generadas y no gozadas",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "5",
+          "Retribuciones diversas especiales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "36000",
+          "191.0",
+          "Utiles de oficina",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "11000",
+          "192.0",
+          "Elementos de limpieza y de aseo",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "8000",
+          "193.0",
+          "Artículos y accesorios eléctricos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "194.0",
+          "Artículos menores, médico, quirúrgicos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "36000",
+          "195.0",
+          "Artículos educacionales, culturales,deportivos y recreativos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "196.0",
+          "Utiles de cocina,comedor,baño",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "6000",
+          "197.0",
+          "Artículos y accesorios de informática",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "198.1",
+          "Repuestos y Accesorios uso exclus.Incisos 25a27,29,31a35",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "35798",
+          "199.0",
+          "Otros bienes de consumo no incluidos en los anteriores",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "5000",
+          "121.0",
+          "Hilados y telas",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "12",
+          "Prod.textiles,  prendas de vestir y art.de cuero y similares",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "8000",
+          "122.0",
+          "Prendas de vestir",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "12",
+          "Prod.textiles,  prendas de vestir y art.de cuero y similares",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "129.0",
+          "Otros productos textiles,de vestir art. de cuero o similares",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "12",
+          "Prod.textiles,  prendas de vestir y art.de cuero y similares",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "25000",
+          "111.0",
+          "Alimentos para personas",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "11",
+          "Productos alimenticios, agropecuarios y forestales",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "119.0",
+          "Otros productos alimenticios, agropecuarios, forestales",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "11",
+          "Productos alimenticios, agropecuarios y forestales",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "28000",
+          "131.0",
+          "Papeles de oficina",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "132.0",
+          "Productos de papel y cartón",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "3500",
+          "133.0",
+          "Formularios , impresos  y similares",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "134.0",
+          "Productos de artes gráficas",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "14000",
+          "135.0",
+          "Libros, revistas y otras publicaciones",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "139.0",
+          "Otros productos de papel, libros e impresos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "13",
+          "Productos de papel, libros e impresos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "149.0",
+          "Otros productos energéticos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "14",
+          "Productos energéticos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "171.0",
+          "Productos básicos de hierro y acero",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "17",
+          "Productos metálicos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "14000",
+          "173.0",
+          "Accesorios metalicos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "17",
+          "Productos metálicos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "18000",
+          "176.0",
+          "Herramientas menores",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "17",
+          "Productos metálicos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "179.0",
+          "Otros productos metálicos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "17",
+          "Productos metálicos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2019",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "2000",
+          "161.0",
+          "Productos de loza,ceramica y similares",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "121",
+          "Igualdad de Género",
+          "16",
+          "Productos minerales",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "ANO"
+            ],
+            "attributes": {
+              "ANO": {
+                "source": "ANO",
+                "title": "ANO"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "AP_ID",
+              "PROGRAMA_ID"
+            ],
+            "attributes": {
+              "AP_ID": {
+                "source": "AP_ID",
+                "title": "AP_ID"
+              },
+              "AP_NOMBRE": {
+                "source": "AP_NOMBRE",
+                "title": "AP_NOMBRE",
+                "labelfor": "AP_ID"
+              },
+              "PROGRAMA_ID": {
+                "source": "PROGRAMA_ID",
+                "title": "PROGRAMA_ID",
+                "parent": "AP_ID"
+              },
+              "PROGRAMA_NOMBRE": {
+                "source": "PROGRAMA_NOMBRE",
+                "title": "PROGRAMA_NOMBRE",
+                "labelfor": "PROGRAMA_ID"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "FINANC_ID",
+              "FUENTE_FINANC_ID"
+            ],
+            "attributes": {
+              "FINANC_ID": {
+                "source": "FINANC_ID",
+                "title": "FINANC_ID"
+              },
+              "FINANC_NOMBRE": {
+                "source": "FINANC_NOMBRE",
+                "title": "FINANC_NOMBRE",
+                "labelfor": "FINANC_ID"
+              },
+              "FUENTE_FINANC_ID": {
+                "source": "FUENTE_FINANC_ID",
+                "title": "FUENTE_FINANC_ID",
+                "parent": "FINANC_ID"
+              },
+              "FUENTE_FINANC_NOMBRE": {
+                "source": "FUENTE_FINANC_NOMBRE",
+                "title": "FUENTE_FINANC_NOMBRE",
+                "labelfor": "FUENTE_FINANC_ID"
+              }
+            }
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "GRUPO_ID",
+              "SUBGRUPO_ID",
+              "ODGYAUX_ID"
+            ],
+            "attributes": {
+              "GRUPO_ID": {
+                "source": "GRUPO_ID",
+                "title": "GRUPO_ID"
+              },
+              "GRUPO_NOMBRE": {
+                "source": "GRUPO_NOMBRE",
+                "title": "GRUPO_NOMBRE",
+                "labelfor": "GRUPO_ID"
+              },
+              "ODGYAUX_ID": {
+                "source": "ODGYAUX_ID",
+                "title": "ODGYAUX_ID",
+                "parent": "SUBGRUPO_ID"
+              },
+              "ODGYAUX_NOMBRE": {
+                "source": "ODGYAUX_NOMBRE",
+                "title": "ODGYAUX_NOMBRE",
+                "labelfor": "ODGYAUX_ID"
+              },
+              "SUBGRUPO_ID": {
+                "source": "SUBGRUPO_ID",
+                "title": "SUBGRUPO_ID",
+                "parent": "GRUPO_ID"
+              },
+              "SUBGRUPO_NOMBRE": {
+                "source": "SUBGRUPO_NOMBRE",
+                "title": "SUBGRUPO_NOMBRE",
+                "labelfor": "SUBGRUPO_ID"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ORG_ID",
+              "UE_ID"
+            ],
+            "attributes": {
+              "ORG_ID": {
+                "source": "ORG_ID",
+                "title": "ORG_ID"
+              },
+              "ORG_NOMBRE": {
+                "source": "ORG_NOMBRE",
+                "title": "ORG_NOMBRE",
+                "labelfor": "ORG_ID"
+              },
+              "UE_ID": {
+                "source": "UE_ID",
+                "title": "UE_ID",
+                "parent": "ORG_ID"
+              },
+              "UE_NOMBRE": {
+                "source": "UE_NOMBRE",
+                "title": "UE_NOMBRE",
+                "labelfor": "UE_ID"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "PROYECTO_ID"
+            ],
+            "attributes": {
+              "PROYECTO_ID": {
+                "source": "PROYECTO_ID",
+                "title": "PROYECTO_ID"
+              },
+              "PROYECTO_NOMBRE": {
+                "source": "PROYECTO_NOMBRE",
+                "title": "PROYECTO_NOMBRE",
+                "labelfor": "PROYECTO_ID"
+              }
+            }
+          },
+          "expenditure-type": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "TIPO_GASTO_ID"
+            ],
+            "attributes": {
+              "TIPO_GASTO_ID": {
+                "source": "TIPO_GASTO_ID",
+                "title": "TIPO_GASTO_ID"
+              },
+              "TIPO_GASTO_NOMBRE": {
+                "source": "TIPO_GASTO_NOMBRE",
+                "title": "TIPO_GASTO_NOMBRE",
+                "labelfor": "TIPO_GASTO_ID"
+              }
+            }
+          }
+        },
+        "measures": {
+          "MONTO_APROBADO": {
+            "source": "MONTO_APROBADO",
+            "title": "MONTO_APROBADO"
+          },
+          "MONTO_EJECUTADO": {
+            "source": "MONTO_EJECUTADO",
+            "title": "MONTO_EJECUTADO"
+          },
+          "MONTO_VIGENTE": {
+            "source": "MONTO_VIGENTE",
+            "title": "MONTO_VIGENTE"
+          }
+        }
+      }
     }
   ],
   "description": "Spending information of the central government of Uruguay",
