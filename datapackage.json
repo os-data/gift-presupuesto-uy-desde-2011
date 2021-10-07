@@ -10475,6 +10475,1502 @@
           }
         }
       }
+    },
+    {
+      "bytes": 11234632,
+      "hash": "0698e1a4ef0a0f1a7becc0c96bb31a695504d67ccd627e4c24bcbb0513d8fd3a",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "ANO",
+            "name": "ANO",
+            "slug": "ANO",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "AP_ID",
+            "name": "AP_ID",
+            "slug": "AP_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "AP_NOMBRE",
+            "name": "AP_NOMBRE",
+            "slug": "AP_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "FINANC_ID",
+            "name": "FINANC_ID",
+            "slug": "FINANC_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FINANC_NOMBRE",
+            "name": "FINANC_NOMBRE",
+            "slug": "FINANC_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FUENTE_FINANC_ID",
+            "name": "FUENTE_FINANC_ID",
+            "slug": "FUENTE_FINANC_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level2:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "FUENTE_FINANC_NOMBRE",
+            "name": "FUENTE_FINANC_NOMBRE",
+            "slug": "FUENTE_FINANC_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level2:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "GRUPO_ID",
+            "name": "GRUPO_ID",
+            "slug": "GRUPO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "GRUPO_NOMBRE",
+            "name": "GRUPO_NOMBRE",
+            "slug": "GRUPO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "MONTO_APROBADO",
+            "name": "MONTO_APROBADO",
+            "slug": "MONTO_APROBADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_EJECUTADO",
+            "name": "MONTO_EJECUTADO",
+            "slug": "MONTO_EJECUTADO",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "MONTO_VIGENTE",
+            "name": "MONTO_VIGENTE",
+            "slug": "MONTO_VIGENTE",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "ODGYAUX_ID",
+            "name": "ODGYAUX_ID",
+            "slug": "ODGYAUX_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ODGYAUX_NOMBRE",
+            "name": "ODGYAUX_NOMBRE",
+            "slug": "ODGYAUX_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ORG_ID",
+            "name": "ORG_ID",
+            "slug": "ORG_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "ORG_NOMBRE",
+            "name": "ORG_NOMBRE",
+            "slug": "ORG_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "PROGRAMA_ID",
+            "name": "PROGRAMA_ID",
+            "slug": "PROGRAMA_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "PROGRAMA_NOMBRE",
+            "name": "PROGRAMA_NOMBRE",
+            "slug": "PROGRAMA_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "PROYECTO_ID",
+            "name": "PROYECTO_ID",
+            "slug": "PROYECTO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "PROYECTO_NOMBRE",
+            "name": "PROYECTO_NOMBRE",
+            "slug": "PROYECTO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "SUBGRUPO_ID",
+            "name": "SUBGRUPO_ID",
+            "slug": "SUBGRUPO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "SUBGRUPO_NOMBRE",
+            "name": "SUBGRUPO_NOMBRE",
+            "slug": "SUBGRUPO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "TIPO_GASTO_ID",
+            "name": "TIPO_GASTO_ID",
+            "slug": "TIPO_GASTO_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:code",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "TIPO_GASTO_NOMBRE",
+            "name": "TIPO_GASTO_NOMBRE",
+            "slug": "TIPO_GASTO_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "expenditure-type:label",
+            "conceptType": "expenditure-type",
+            "options": []
+          },
+          {
+            "title": "UE_ID",
+            "name": "UE_ID",
+            "slug": "UE_ID",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "UE_NOMBRE",
+            "name": "UE_NOMBRE",
+            "slug": "UE_NOMBRE",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "presupuesto_de_uruguay__2018.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/presupuesto_de_uruguay__2018.csv",
+      "hashcopy": "a0f575e511a92d683ec9411ede4567500c3cefb3f2ecb7b989ecd8e0d25bb7ca",
+      "sample": [
+        [
+          "ANO",
+          "AP_ID",
+          "AP_NOMBRE",
+          "FINANC_ID",
+          "FINANC_NOMBRE",
+          "FUENTE_FINANC_ID",
+          "FUENTE_FINANC_NOMBRE",
+          "GRUPO_ID",
+          "GRUPO_NOMBRE",
+          "MONTO_APROBADO",
+          "MONTO_EJECUTADO",
+          "MONTO_VIGENTE",
+          "ODGYAUX_ID",
+          "ODGYAUX_NOMBRE",
+          "ORG_ID",
+          "ORG_NOMBRE",
+          "PROGRAMA_ID",
+          "PROGRAMA_NOMBRE",
+          "PROYECTO_ID",
+          "PROYECTO_NOMBRE",
+          "SUBGRUPO_ID",
+          "SUBGRUPO_NOMBRE",
+          "TIPO_GASTO_ID",
+          "TIPO_GASTO_NOMBRE",
+          "UE_ID",
+          "UE_NOMBRE"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "0",
+          "0",
+          "614019",
+          "91.17",
+          "Economías ejercicios vencidos 2017",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "95000000",
+          "0",
+          "0",
+          "98.0",
+          "Serv.Personales  para uso excl.Entes Descentr.Pto.Nal.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "11",
+          "Rentas Generales",
+          "0",
+          "Servicios Personales",
+          "0",
+          "268400",
+          "268400",
+          "53.0",
+          "Licencias generadas y no gozadas",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "0",
+          "Funcionamiento",
+          "5",
+          "Retribuciones diversas especiales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "5",
+          "Transferencias",
+          "0",
+          "538540",
+          "1560480",
+          "529.0",
+          "Transferencias Corrientes a Sector Privado no incl.anteriors",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "52",
+          "Transferencias corrientes al sector privado",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "2327851",
+          "3119639",
+          "81.0",
+          "Aporte patronal sistema seguridad social s/retrib.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "119380",
+          "160363",
+          "82.0",
+          "Otros aportes patronales sobre retribuciones a F.N.V.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "822037",
+          "1104503",
+          "83.0",
+          "Aporte patronal por Serv.Bonif.(Cód.Ret.3.05)",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "550976",
+          "739070",
+          "87.0",
+          "Aporte patronal a FONASA",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "139778",
+          "174252",
+          "48.7",
+          "% diferencial del aumento - A.182 L.16713",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "4",
+          "Retribuciones complementarias",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "11245049",
+          "14594113",
+          "11.0",
+          "Sueldo básico de cargos",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "1",
+          "Retribuciones de cargos permanentes",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "552834",
+          "1229931",
+          "59.0",
+          "Sueldo anual complementario",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "140",
+          "Convenio ANEP-INEFOP",
+          "5",
+          "Retribuciones diversas especiales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "1",
+          "Bienes de consumo",
+          "3466605",
+          "0",
+          "0",
+          "198.0",
+          "Repuestos y accesorios",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "0",
+          "413369",
+          "199.0",
+          "Otros bienes de consumo no incluidos en los anteriores",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "19",
+          "Otros bienes de consumo",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "1",
+          "Bienes de consumo",
+          "0",
+          "499986",
+          "500000",
+          "141.0",
+          "Combustibles derivados del petróleo",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "14",
+          "Productos energéticos",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "2",
+          "Servicios no personales",
+          "0",
+          "0",
+          "957236",
+          "299.0",
+          "Otros servicios no personales no incluídos en los anteriores",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "29",
+          "Otros servicios no personales",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "2",
+          "Servicios no personales",
+          "0",
+          "1215732",
+          "1496000",
+          "273.0",
+          "De automotores",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "27",
+          "Servici. para mantenimiento, reparaciones menores y limpieza",
+          "F",
+          "Funcionamiento",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "47465",
+          "0",
+          "47465",
+          "68.0",
+          "Comp.alimentación sin aportep/dia trabA157y167L16713 D113/96",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "6",
+          "Beneficios al personal",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "1143222",
+          "157476",
+          "1360553",
+          "81.0",
+          "Aporte patronal sistema seguridad social s/retrib.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "58553",
+          "8075",
+          "71024",
+          "82.0",
+          "Otros aportes patronales sobre retribuciones a F.N.V.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "414856",
+          "0",
+          "414856",
+          "83.0",
+          "Aporte patronal por Serv.Bonif.(Cód.Ret.3.05)",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "197297",
+          "40378",
+          "246699",
+          "87.0",
+          "Aporte patronal a FONASA",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "67127",
+          "0",
+          "67127",
+          "89.0",
+          "Otras cargas legales sobre servicios personales",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "8",
+          "Cargas legales sobre servicios personales",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "356799",
+          "6722",
+          "356799",
+          "91.0",
+          "Retribuciones de ejercicios vencidos A49 L17930",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "456961",
+          "0",
+          "456961",
+          "91.14",
+          "Economías ejercicios vencidos 2014",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "240686",
+          "0",
+          "240686",
+          "91.15",
+          "Economías ejercicios vencidos 2015",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "0",
+          "31194",
+          "91.17",
+          "Economías ejercicios vencidos 2017",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "469964791",
+          "0",
+          "639375894",
+          "92.0",
+          "Partidas globales a distribuir",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "208905",
+          "0",
+          "0",
+          "98.0",
+          "Serv.Personales  para uso excl.Entes Descentr.Pto.Nal.",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ],
+        [
+          "2018",
+          "8",
+          "EDUCACIÓN",
+          "10",
+          "FINANCIACIONES INTERNAS",
+          "12",
+          "Recursos con Afectación Especial",
+          "0",
+          "Servicios Personales",
+          "0",
+          "0",
+          "222022",
+          "99.0",
+          "Otras retribuciones",
+          "25",
+          "Administración Nacional de Educación Pública",
+          "601",
+          "Administración de la Educación y Gestión de Políticas Transversales",
+          "201",
+          "Administración de la Educación",
+          "9",
+          "Otras retribuciones",
+          "P",
+          "Personal",
+          "1",
+          "Consejo Directivo Central"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "ANO"
+            ],
+            "attributes": {
+              "ANO": {
+                "source": "ANO",
+                "title": "ANO"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "AP_ID",
+              "PROGRAMA_ID"
+            ],
+            "attributes": {
+              "AP_ID": {
+                "source": "AP_ID",
+                "title": "AP_ID"
+              },
+              "AP_NOMBRE": {
+                "source": "AP_NOMBRE",
+                "title": "AP_NOMBRE",
+                "labelfor": "AP_ID"
+              },
+              "PROGRAMA_ID": {
+                "source": "PROGRAMA_ID",
+                "title": "PROGRAMA_ID",
+                "parent": "AP_ID"
+              },
+              "PROGRAMA_NOMBRE": {
+                "source": "PROGRAMA_NOMBRE",
+                "title": "PROGRAMA_NOMBRE",
+                "labelfor": "PROGRAMA_ID"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "FINANC_ID",
+              "FUENTE_FINANC_ID"
+            ],
+            "attributes": {
+              "FINANC_ID": {
+                "source": "FINANC_ID",
+                "title": "FINANC_ID"
+              },
+              "FINANC_NOMBRE": {
+                "source": "FINANC_NOMBRE",
+                "title": "FINANC_NOMBRE",
+                "labelfor": "FINANC_ID"
+              },
+              "FUENTE_FINANC_ID": {
+                "source": "FUENTE_FINANC_ID",
+                "title": "FUENTE_FINANC_ID",
+                "parent": "FINANC_ID"
+              },
+              "FUENTE_FINANC_NOMBRE": {
+                "source": "FUENTE_FINANC_NOMBRE",
+                "title": "FUENTE_FINANC_NOMBRE",
+                "labelfor": "FUENTE_FINANC_ID"
+              }
+            }
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "GRUPO_ID",
+              "SUBGRUPO_ID",
+              "ODGYAUX_ID"
+            ],
+            "attributes": {
+              "GRUPO_ID": {
+                "source": "GRUPO_ID",
+                "title": "GRUPO_ID"
+              },
+              "GRUPO_NOMBRE": {
+                "source": "GRUPO_NOMBRE",
+                "title": "GRUPO_NOMBRE",
+                "labelfor": "GRUPO_ID"
+              },
+              "ODGYAUX_ID": {
+                "source": "ODGYAUX_ID",
+                "title": "ODGYAUX_ID",
+                "parent": "SUBGRUPO_ID"
+              },
+              "ODGYAUX_NOMBRE": {
+                "source": "ODGYAUX_NOMBRE",
+                "title": "ODGYAUX_NOMBRE",
+                "labelfor": "ODGYAUX_ID"
+              },
+              "SUBGRUPO_ID": {
+                "source": "SUBGRUPO_ID",
+                "title": "SUBGRUPO_ID",
+                "parent": "GRUPO_ID"
+              },
+              "SUBGRUPO_NOMBRE": {
+                "source": "SUBGRUPO_NOMBRE",
+                "title": "SUBGRUPO_NOMBRE",
+                "labelfor": "SUBGRUPO_ID"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ORG_ID",
+              "UE_ID"
+            ],
+            "attributes": {
+              "ORG_ID": {
+                "source": "ORG_ID",
+                "title": "ORG_ID"
+              },
+              "ORG_NOMBRE": {
+                "source": "ORG_NOMBRE",
+                "title": "ORG_NOMBRE",
+                "labelfor": "ORG_ID"
+              },
+              "UE_ID": {
+                "source": "UE_ID",
+                "title": "UE_ID",
+                "parent": "ORG_ID"
+              },
+              "UE_NOMBRE": {
+                "source": "UE_NOMBRE",
+                "title": "UE_NOMBRE",
+                "labelfor": "UE_ID"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "PROYECTO_ID"
+            ],
+            "attributes": {
+              "PROYECTO_ID": {
+                "source": "PROYECTO_ID",
+                "title": "PROYECTO_ID"
+              },
+              "PROYECTO_NOMBRE": {
+                "source": "PROYECTO_NOMBRE",
+                "title": "PROYECTO_NOMBRE",
+                "labelfor": "PROYECTO_ID"
+              }
+            }
+          },
+          "expenditure-type": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "TIPO_GASTO_ID"
+            ],
+            "attributes": {
+              "TIPO_GASTO_ID": {
+                "source": "TIPO_GASTO_ID",
+                "title": "TIPO_GASTO_ID"
+              },
+              "TIPO_GASTO_NOMBRE": {
+                "source": "TIPO_GASTO_NOMBRE",
+                "title": "TIPO_GASTO_NOMBRE",
+                "labelfor": "TIPO_GASTO_ID"
+              }
+            }
+          }
+        },
+        "measures": {
+          "MONTO_APROBADO": {
+            "source": "MONTO_APROBADO",
+            "title": "MONTO_APROBADO"
+          },
+          "MONTO_EJECUTADO": {
+            "source": "MONTO_EJECUTADO",
+            "title": "MONTO_EJECUTADO"
+          },
+          "MONTO_VIGENTE": {
+            "source": "MONTO_VIGENTE",
+            "title": "MONTO_VIGENTE"
+          }
+        }
+      }
     }
   ],
   "description": "Spending information of the central government of Uruguay",
