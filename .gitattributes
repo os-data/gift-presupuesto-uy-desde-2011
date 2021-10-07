@@ -3,3 +3,4 @@ data/presupuesto_de_uruguay__2012.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_de_uruguay__2013.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_de_uruguay__2014.csv filter=lfs diff=lfs merge=lfs -text
 data/presupuesto_de_uruguay__2015.csv filter=lfs diff=lfs merge=lfs -text
+data/presupuesto_de_uruguay__2016.csv filter=lfs diff=lfs merge=lfs -text
