@@ -465,7 +465,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2011.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2011.csv",
       "hashcopy": "9f649607df715d1b888e2e00519e8289618de65276d1cefd74b450eba3db5ec6",
       "sample": [
         [
@@ -1961,7 +1961,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2012.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2012.csv",
       "hashcopy": "b0626e76e4120881edd5c5685fde68cddaf2411bf529275863f0070d5550615f",
       "sample": [
         [
@@ -3457,7 +3457,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2013.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2013.csv",
       "hashcopy": "ef14ee4da2309e0ca6b98b4f975dff04d7471fbda716a04013242f42b5aabe2c",
       "sample": [
         [
@@ -4953,7 +4953,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2014.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2014.csv",
       "hashcopy": "8ee60da0fc8cfb9e3fa69fe3885456d59cf7271655c671c75493b65f8f75d89e",
       "sample": [
         [
@@ -6449,7 +6449,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2015.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2015.csv",
       "hashcopy": "784dcc7a6ce0b5c7c50b3cd3e7a1522ab787c7e8b75425293dd54c720c0ac078",
       "sample": [
         [
@@ -7945,7 +7945,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2016.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2016.csv",
       "hashcopy": "674be24a9b02eb5b7af0f0497bb8011bf41adf6d3899e1bd59a2499d77be9baa",
       "sample": [
         [
@@ -9441,7 +9441,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2017.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2017.csv",
       "hashcopy": "32ec6a4f56169491cb25e150e2a5cf9b491eea4424aeaa3877104620336da12b",
       "sample": [
         [
@@ -10937,7 +10937,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2018.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2018.csv",
       "hashcopy": "a0f575e511a92d683ec9411ede4567500c3cefb3f2ecb7b989ecd8e0d25bb7ca",
       "sample": [
         [
@@ -12433,7 +12433,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/presupuesto_de_uruguay__2019.csv",
+      "path": "https://storage.openspending.org/presupuesto-uy-desde-2011/presupuesto_de_uruguay__2019.csv",
       "hashcopy": "110f11a218aca0119584b72e1fd6d791870534348128fc4cf70d71601d4a27ae",
       "sample": [
         [
@@ -13485,6 +13485,7 @@
   "pub_institutional_name": "Oficina de Planeación y Presupuesto",
   "continent": "South America",
   "country": "Uruguay",
+  "countryCode": "UY",
   "region": "Americas",
   "periodicity": "Yearly",
   "years_included": [
@@ -13500,8 +13501,10 @@
     "2020",
     "2021"
   ],
-  "start_date": "2015-01-01",
-  "end_date": "2021-12-31",
+  "fiscalPeriod": {
+  "start": "2015-01-01",
+  "end": "2021-12-31"
+  },
   "createdAt": "2021-10-07T18:51:54Z",
   "updatedAt": "2021-10-14T08:54:38Z",
   "image": "https://catalogodatos.gub.uy/uploads/group/2020-06-24-150804.757005Logoopp100px0.jpg"
